@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <div class="header-content">
+        <img src="zed.png" alt="Zedrick Jay J. Montaño" class="profile-img">
+            <div class="header-text">
+                <h1>Zedrick Jay J. Montaño</h1>
+                <p>Student | Future Computing Professional</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi! I'm Zedrick Jay J. Montaño, a student and aspiring computing professional who is passionate about technology and programming. I am currently learning different programming languages, including HTML, CSS, JavaScript, Java, and C++. My goal is to improve my coding skills, explore new technologies, and create useful and creative projects as I continue my journey in the world of computing.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>C++</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article>
+                <h3>Project 1</h3>
+                    <a href="https://github.com/montanozedrickjay-bit/Figma-Portfolio/blob/main/JSDowney-Website.zip" target="_blank">
+                        JS Downey Website
+                    </a>
+                <h3>Project 2</h3>
+                    <a href="https://github.com/montanozedrickjay-bit/Figma-Portfolio/blob/main/Personal-Portfolio.zip" target="_blank">
+                        Personal Portfolio
+                    </a>
+                <h3>Project 3</h3>
+                    <a href="https://github.com/montanozedrickjay-bit/Figma-Portfolio/blob/main/Russian-Roulette.zip" target="_blank">
+                        Russian Roulette
+                    </a>
+                <h3>Project 4</h3>
+                    <a href="https://github.com/montanozedrickjay-bit/Figma-Portfolio/blob/main/Simple-Calculator.zip" target="_blank">
+                        Simple Calculator
+                    </a>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+                <p id="formMessage" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Zedrick Jay J. Montaño</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
